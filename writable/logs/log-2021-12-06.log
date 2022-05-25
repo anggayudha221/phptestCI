@@ -1,0 +1,248 @@
+CRITICAL - 2021-12-06 00:07:26 --> Trying to get property 'Name' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:07:52 --> Trying to get property 'Name' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:08:04 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:21:50 --> syntax error, unexpected '$take' (T_VARIABLE)
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:22:04 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:23:17 --> Undefined property: stdClass::$Name
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:30:14 --> file_get_contents(https://sheetdb.io/api/v1/rgxcxhww9qnuy/id/2): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(29): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-06 00:31:46 --> file_get_contents(https://sheetdb.io/api/v1/rgxcxhww9qnuy/id/61): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(27): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-06 00:32:05 --> file_get_contents(https://sheetdb.io/api/v1/rgxcxhww9qnuy/id/61): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(27): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-06 00:33:56 --> Undefined variable: options
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:34:06 --> file_get_contents(https://sheetdb.io/api/v1/rgxcxhww9qnuy/Name/test): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(11): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-06 00:37:10 --> Undefined index: Name
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:37:26 --> Trying to get property 'Name' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:37:47 --> Trying to get property 'Name' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:37:49 --> Trying to get property 'Name' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:38:07 --> syntax error, unexpected ';', expecting ')'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:38:21 --> Trying to get property 'Name' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 00:38:28 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 01:34:44 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 01:36:16 --> Trying to get property 'rows' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 01:44:55 --> syntax error, unexpected ']'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 01:46:16 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-06 02:32:32 --> Invalid argument supplied for foreach()
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 02:33:03 --> Undefined variable: numItems
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 02:34:49 --> file_get_contents(https://sheetsu.com/apis/v1.0su/2971c1d86ad4): failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(19): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-06 02:37:08 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-06 02:37:19 --> Trying to get property 'rows' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 02:37:56 --> Trying to get property 'rows' of non-object
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 02:45:34 --> syntax error, unexpected '}', expecting ')'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 02:45:46 --> Undefined variable: sheetdb
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-06 02:46:08 --> Undefined variable: bane
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}

@@ -1,0 +1,9 @@
+CRITICAL - 2022-01-12 22:42:17 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(38): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}

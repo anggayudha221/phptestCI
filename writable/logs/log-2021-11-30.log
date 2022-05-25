@@ -1,0 +1,164 @@
+ERROR - 2021-11-30 01:51:12 --> Unknown column 'img_name' in 'field list'
+CRITICAL - 2021-11-30 01:51:12 --> Unknown column 'img_name' in 'field list'
+#0 C:\newproject\non-project\ci4 testing\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\newproject\non-project\ci4 testing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\newproject\non-project\ci4 testing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\newproject\non-project\ci4 testing\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 C:\newproject\non-project\ci4 testing\app\Controllers\AjaxFileUpload.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\AjaxFileUpload->upload()
+#6 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#10 {main}
+ERROR - 2021-11-30 01:52:32 --> Unknown column 'img_name' in 'field list'
+CRITICAL - 2021-11-30 01:52:32 --> Unknown column 'img_name' in 'field list'
+#0 C:\newproject\non-project\ci4 testing\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\newproject\non-project\ci4 testing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\newproject\non-project\ci4 testing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\newproject\non-project\ci4 testing\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 C:\newproject\non-project\ci4 testing\app\Controllers\AjaxFileUpload.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\AjaxFileUpload->upload()
+#6 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#10 {main}
+ERROR - 2021-11-30 01:52:35 --> Unknown column 'img_name' in 'field list'
+CRITICAL - 2021-11-30 01:52:35 --> Unknown column 'img_name' in 'field list'
+#0 C:\newproject\non-project\ci4 testing\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\newproject\non-project\ci4 testing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\newproject\non-project\ci4 testing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\newproject\non-project\ci4 testing\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 C:\newproject\non-project\ci4 testing\app\Controllers\AjaxFileUpload.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\AjaxFileUpload->upload()
+#6 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#10 {main}
+ERROR - 2021-11-30 01:52:41 --> Unknown column 'img_name' in 'field list'
+CRITICAL - 2021-11-30 01:52:41 --> Unknown column 'img_name' in 'field list'
+#0 C:\newproject\non-project\ci4 testing\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\newproject\non-project\ci4 testing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\newproject\non-project\ci4 testing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\newproject\non-project\ci4 testing\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 C:\newproject\non-project\ci4 testing\app\Controllers\AjaxFileUpload.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\AjaxFileUpload->upload()
+#6 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#10 {main}
+CRITICAL - 2021-11-30 20:00:22 --> Undefined property: App\Controllers\AjaxFileUpload::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\AjaxFileUpload.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\AjaxFileUpload->upload()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 20:00:25 --> Undefined property: App\Controllers\AjaxFileUpload::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\AjaxFileUpload.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\AjaxFileUpload->upload()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 20:00:43 --> Undefined property: App\Controllers\AjaxFileUpload::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\AjaxFileUpload.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\AjaxFileUpload->upload()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 20:03:04 --> Undefined property: App\Controllers\Home::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 20:04:52 --> Cannot call constructor
+#0 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#5 {main}
+CRITICAL - 2021-11-30 20:04:53 --> Cannot call constructor
+#0 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#5 {main}
+CRITICAL - 2021-11-30 20:11:14 --> Undefined property: App\Controllers\Home::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 20:12:08 --> Undefined property: App\Controllers\Home::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 20:12:10 --> Undefined property: App\Controllers\Home::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 20:12:10 --> Undefined property: App\Controllers\Home::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 20:14:30 --> Cannot call constructor
+#0 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(801): App\Controllers\AjaxFileUpload->__construct()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#5 {main}
+CRITICAL - 2021-11-30 20:17:22 --> Cannot call constructor
+#0 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#5 {main}
+CRITICAL - 2021-11-30 20:40:29 --> Undefined property: App\Controllers\Home::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-11-30 23:30:24 --> Undefined variable: site
+#0 C:\newproject\non-project\ci4 testing\app\Views\test_footer.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\View\View.php(214): include('C:\\newproject\\n...')
+#2 C:\newproject\non-project\ci4 testing\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\newproject\non-project\ci4 testing\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(18): view()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#10 {main}

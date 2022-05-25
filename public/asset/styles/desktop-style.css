@@ -1,0 +1,1491 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  overflow: hidden;
+}
+
+/* Header CSS */
+.navbar {
+  justify-content: right;
+  padding-right: 0px;
+  align-items: center;
+  display: flex;
+}
+
+.top-container.active {
+  background-color: #ffffff;
+}
+
+.top-container.active .navbar ul li a.group-a {
+  color: #bb2b2e;
+}
+
+#header-menu {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.top-container {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  color: #bb2b2e;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  text-decoration: none;
+  position: fixed;
+}
+
+.top-container.hotel-page {
+  box-shadow: none;
+}
+
+.top-container.detail-group {
+  background: linear-gradient(to right, #ef825a, #bb2b2e);
+}
+
+.top-container.active.detail-group {
+  background: #ffffff;
+}
+
+.top-container .logo {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 20px 20px 0px;
+}
+
+.top-container .navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-container .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.top-container .navbar ul li a {
+  font-size: 14px;
+  padding: 10px 20px 20px 20px;
+  color: #bb2b2e;
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.top-container .navbar ul li a.group-a {
+  color: #ffffff;
+}
+
+#menu-bar {
+  display: none;
+}
+
+.top-container label {
+  font-size: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar img {
+  width: 40px;
+  margin-top: -5px;
+}
+
+.brand-logo {
+  margin: auto;
+}
+
+.brand-logo img {
+  margin-top: 0px;
+  width: 170px;
+}
+
+a.users {
+  padding-left: 20px;
+}
+
+.last-col-foo {
+  padding-left: 24px;
+}
+
+.top-container .navbar ul li a.login {
+  background-color: transparent;
+  border: 1px solid #bb2b2e;
+  color: #bb2b2e;
+  font-weight: 700;
+  padding: 5px 10px;
+  margin: 0px 0px 0px 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.top-container .navbar ul li a.group-a.login {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.top-container.active .navbar ul li a.group-a.login {
+  border: 1px solid #bb2b2e;
+  color: #bb2b2e;
+}
+
+.top-container.active .brand-logo img {
+  content: url('../images/azana-compro.png');
+}
+
+.header .hotel-menu {
+  padding: 20px 0px;
+}
+
+.header .hotel-menu a {
+  color: #bb2b2e;
+  padding-right: 20px;
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+.header .hotel-menu a:hover {
+  color: #bb2b2e;
+  font-weight: 700;
+}
+
+.header .hotel-menu a.active {
+  color: #bb2b2e;
+  font-weight: 700;
+}
+
+/* End Header CSS */
+
+/* Banner Section */
+#banner {
+  height: 65vh;
+  margin-bottom: 200px;
+}
+
+.banner-home {
+  background: #f5f5f5;
+}
+
+.banner-group {
+  background: linear-gradient(to right, #ef825a, #bb2b2e);
+}
+
+#banner .wrapper {
+  padding-top: 120px;
+}
+
+.banner-home .carousel-item {
+  height: 750px;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.banner-home .carousel-item img {
+  height: 750px;
+  border-radius: 20px;
+  opacity: 0.7;
+  object-fit: cover;
+}
+
+.banner-group .carousel-item {
+  height: 750px;
+  border-radius: 20px;
+}
+
+.banner-group .carousel-item img {
+  height: 750px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+#banner .banner-group .carousel-item img {
+  height: 650px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+#banner .carousel-control-prev {
+  left: -50px;
+}
+
+#banner .carousel-control-next {
+  right: -50px;
+}
+
+#banner .caption {
+  text-align: center;
+  color: #ffffff;
+}
+
+#banner .caption h2 {
+  font-weight: 600;
+}
+
+#banner .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#banner .btn-box a {
+  text-align: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+#banner .btn-box .btn-a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#banner .btn-box .btn-a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-top: -2px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+#banner .bottom {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* End Banner Section */
+
+/* About Section */
+#about {
+  padding: 140px 0px 0px 0px;
+}
+
+#about .container {
+  padding-bottom: 90px;
+  border-bottom: 1px solid #cecece;
+}
+
+#about .wrapper {
+  display: flex;
+}
+
+#about .wrapper .left-side {
+  width: 32%;
+}
+
+#about .wrapper .divider {
+  width: 13%;
+}
+
+#about .wrapper .right-side {
+  width: 55%;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#about .wrapper .left-side h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#about .btn-box {
+  margin-top: 60px;
+}
+
+#about .btn-box a {
+  text-align: center;
+  padding: 15px 30px;
+  background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+#about .btn-box .btn-a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#about .btn-box .btn-a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+#about .wrapper .right-side img {
+  width: 100%;
+  vertical-align: middle;
+}
+/* End About Section */
+
+/* Explore Section */
+#explore {
+  padding: 90px 0px 0px 0px;
+}
+
+#explore h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#explore .caption {
+  padding-bottom: 15px;
+}
+
+#explore .wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 0px;
+  grid-template-rows: masonry;
+}
+
+#explore .wrapper .card {
+  height: 450px;
+  grid-column: span 2;
+  border-radius: 10px;
+  border: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#explore .wrapper .card .card-body {
+  padding: 0px;
+}
+
+#explore .wrapper .card .head-card {
+  height: 270px;
+  background-size: cover;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#explore .wrapper .card .card-footer {
+  padding: 20px 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#explore .wrapper .card .card-footer h4 {
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#explore .wrapper .card .room-count,
+.hotel-count {
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+#explore .btn-box {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#explore .btn-box a {
+  text-align: center;
+  padding: 15px 30px;
+  background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+#explore .btn-box .btn-a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#explore .btn-box .btn-a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+/* End Explore Section */
+
+/* Brand Section */
+.brand-index {
+  margin: 45px 0px;
+}
+
+.brand-detailGroup {
+  margin-top: 87px;
+}
+
+#brand .bg-box {
+  background-size: cover;
+  padding: 40px 0px;
+}
+
+#brand .box-title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  z-index: 15;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#brand .carousel-item {
+  height: 888px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 50%);
+}
+
+#brand .carousel-item .carousel-caption h3 {
+  margin-bottom: 20px;
+}
+
+.carousel-indicators img {
+  width: 150px;
+  padding: 0px 20px;
+}
+
+#brand .slick-slider img {
+  width: 100%;
+  height: 150px;
+}
+
+#brand .carousel-item .carousel-caption p {
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+#brand .carousel-item .carousel-caption .roomCount {
+  font-weight: 700;
+}
+#brand h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+#brand .box-title p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#brand .btn-box {
+  padding-top: 20px;
+}
+
+.brand-index .slick-slider {
+  position: absolute;
+  bottom: 150px;
+}
+
+.brand-detailGroup .slick-slider {
+  position: absolute;
+  bottom: 50px;
+}
+
+#brand .left-center {
+  position: absolute;
+  top: 55%;
+  left: 46%;
+  transform: translate(-82%, -50%);
+  text-align: left;
+}
+
+#brand .btn-box a {
+  text-align: center;
+  padding: 15px 30px;
+  background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: right;
+}
+
+#brand .btn-box .btn-a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#brand .btn-box .btn-a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#brand .bottom {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 35px;
+}
+
+/* End Brand Section */
+/* Ads Section */
+#ads {
+  padding: 45px 0px;
+}
+#ads .wrapper .card {
+  width: 100%;
+  padding: 20px;
+  height: 620px;
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: none;
+}
+
+#ads .wrapper .card .top-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(25%, -50%);
+  font-weight: 700;
+}
+
+#ads .wrapper .card .top-right h2 {
+  font-weight: 700;
+}
+
+#ads .wrapper .card .bottom-right {
+  position: absolute;
+  bottom: 90px;
+  right: 100px;
+}
+
+#ads .btn-box a {
+  text-align: center;
+  padding: 15px 30px;
+  background-image: linear-gradient(to right, #3c70c4, #bcf7ff);
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+#ads .btn-box .btn-a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#ads .btn-box .btn-a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+/* End Ads Section */
+
+/* Preview Blog Section */
+#pre-blog {
+  padding: 45px 0px 90px 0px;
+}
+
+#pre-blog h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#pre-blog .wrapper {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+#pre-blog .wrapper .left-side {
+  width: 80%;
+}
+
+#pre-blog .wrapper .right-side {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+#pre-blog .btn-box a {
+  text-align: center;
+  padding: 15px 30px;
+  background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+#pre-blog .btn-box .btn-a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#pre-blog .btn-box .btn-a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+#pre-blog .btn-box-a a {
+  text-align: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+#pre-blog .btn-box-a .btn-a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#pre-blog .btn-box-a .btn-a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-top: -2px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+#pre-blog .wrapper-bottom {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 40px;
+  margin-bottom: 0px;
+  grid-template-rows: masonry;
+}
+
+#pre-blog .wrapper-bottom .card {
+  grid-column: span 4;
+  width: 100%;
+  height: 460px;
+  border-radius: 20px;
+  padding: 0px;
+  background-size: cover;
+  border: none;
+}
+
+#pre-blog .wrapper-bottom .card img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+}
+
+#pre-blog .top-left {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+}
+
+#pre-blog .wrapper-bottom .card h3.top-left {
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px 70px 20px 20px;
+}
+
+#pre-blog .bottom-left {
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+}
+/* End Preview Blog Section */
+
+/* Group Section */
+#group {
+  padding: 137px 0px 90px 0px;
+}
+
+#group .wrapper {
+  display: flex;
+  padding: 0px 70px;
+}
+
+#group .wrapper .left-side {
+  width: 30%;
+  vertical-align: middle;
+  margin: auto;
+}
+
+#group .wrapper .divider {
+  width: 5%;
+}
+
+#group .wrapper .right-side {
+  width: 65%;
+}
+
+#group .wrapper .left-side img {
+  width: 90%;
+}
+
+/* Visi Misi Section */
+#visi-misi {
+  padding: 70px 0px;
+}
+
+#visi-misi h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#visi-misi .wrapper-vision {
+  display: flex;
+}
+
+#visi-misi .wrapper-vision .left-side {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#visi-misi .wrapper-vision .right-side {
+  width: 50%;
+  padding: 150px 250px 150px 230px;
+  background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+}
+
+#visi-misi .wrapper-vision .right-side h4 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+#visi-misi .wrapper-vision .right-side p {
+  color: #ffffff;
+}
+
+#visi-misi .wrapper-mission {
+  display: flex;
+}
+
+#visi-misi .wrapper-mission .right-side {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#visi-misi .wrapper-mission .left-side {
+  width: 50%;
+  padding: 150px 250px 150px 250px;
+  background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+}
+
+#visi-misi .wrapper-mission .left-side h4 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+#visi-misi .wrapper-mission .left-side p {
+  color: #ffffff;
+}
+
+#visi-misi .wrapper-ambition {
+  display: flex;
+}
+
+#visi-misi .wrapper-ambition .left-side {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#visi-misi .wrapper-ambition .right-side {
+  width: 50%;
+  padding: 200px 250px 200px 225px;
+  background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+}
+
+#visi-misi .wrapper-ambition .right-side h4 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+#visi-misi .wrapper-ambition .right-side p {
+  color: #ffffff;
+}
+/* End Visi Misi Section */
+
+/* Our Brand Section */
+#our-brand {
+  padding: 50px 0px 0px 0px;
+}
+
+#our-brand h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#our-brand .wrapper {
+  display: flex;
+  padding: 0px 70px;
+  margin-bottom: 120px;
+}
+
+#our-brand .wrapper .left-side {
+  width: 30%;
+  vertical-align: top;
+}
+
+#our-brand .wrapper .divider {
+  width: 5%;
+}
+
+#our-brand .wrapper .right-side {
+  width: 65%;
+}
+
+#our-brand .wrapper .left-side img {
+  width: 90%;
+}
+
+#our-brand .wrapper .right-side .btn-box {
+  margin-top: 30px;
+}
+
+#our-brand .wrapper .right-side .btn-box a {
+  text-align: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #ef825a, #bb2b2e);
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+#our-brand .wrapper .right-side .btn-box .btn-a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#our-brand .wrapper .right-side .btn-box .btn-a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-top: -2px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+/* End Our Brand Section */
+
+/* Call Center Section */
+#call-center {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 30px 0px;
+  background-color: #ffffff;
+}
+
+#call-center i {
+  font-size: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#call-center .text-call-center {
+  font-size: 20px;
+  padding-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+#call-center .img-logo {
+  text-align: right;
+}
+
+#call-center .content-text {
+  padding-top: 11px;
+}
+
+#call-center .img-logo img {
+  width: 120px;
+}
+/* End Call Center Section */
+
+/* Azana Group Section */
+
+#azana-group h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#azana-group .wrapper-vision {
+  display: flex;
+}
+
+#azana-group .wrapper-vision .left-side {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+#azana-group .wrapper-vision .left-side img {
+  width: 35%;
+}
+
+#azana-group .wrapper-vision .right-side {
+  width: 50%;
+  padding: 150px 250px 150px 230px;
+  background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+}
+
+#azana-group .wrapper-vision .right-side h4 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+#azana-group .wrapper-vision .right-side p {
+  color: #ffffff;
+}
+/* End Azana Group Section */
+
+/* Azana Desc Section */
+#azana-desc {
+  padding: 90px 0px;
+  background-color: #f5f5f5;
+}
+
+#azana-desc .wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 0px;
+  grid-template-rows: masonry;
+}
+
+#azana-desc .wrapper .card {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  grid-column: span 2;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#azana-desc .wrapper .card img {
+  width: 60%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+#azana-desc .wrapper .card img:hover {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.1);
+}
+
+#azana-desc .box-desc {
+  padding: 60px 80px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #707070;
+  border-radius: 10px;
+  margin: 70px 80px 10px 80px;
+}
+
+#azana-desc .box-desc .desc {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+#azana-desc .box-desc .desc .left-side {
+  width: 20%;
+  padding: 20px 0px;
+}
+#azana-desc .box-desc .desc .divider {
+  width: 2%;
+}
+
+#azana-desc .box-desc .desc .right-side {
+  width: 78%;
+  border-bottom: 1px solid #cecece;
+  padding: 15px 0px;
+  display: block;
+}
+
+#azana-desc .box-desc .desc .left-side h4 {
+  font-size: 16px;
+  color: #707070;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#azana-desc .box-desc .desc .right-side .desc-dot {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1.9em;
+  font-weight: 500;
+}
+
+#azana-desc .box-desc .desc .right-side .desc-dot i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 10px;
+  margin-right: 10px;
+  margin-top: -3px;
+  color: #707070;
+}
+
+/* End Azana Desc Section */
+
+/* Footer Section  */
+#top-footer {
+  padding: 70px 0px;
+  background-color: #ffffff;
+}
+
+#top-footer {
+  border-bottom: 1px solid #eaeaea;
+}
+footer h4 {
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+footer p {
+  padding-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.7em;
+  margin: 0;
+}
+
+#bottom-footer {
+  padding: 20px 0px;
+  background-color: #ffffff;
+}
+
+#top-footer .about-footer {
+  padding-right: 0px;
+}
+
+#top-footer .about-footer a {
+  color: #000000;
+}
+
+#top-footer .about-footer a:hover {
+  color: #707070;
+}
+#bottom-footer .copyright {
+  font-size: 14px;
+}
+
+#bottom-footer .social-media {
+  text-align: right;
+}
+
+#bottom-footer .social-media a {
+  padding-left: 20px;
+  color: #707070;
+  font-size: 14px;
+}
+/* End Footer Section */
+
+/* Media Queries */
+
+@media (max-width: 1440px) {
+  #pre-blog .wrapper-bottom .card h3.top-left {
+    font-size: 32px;
+  }
+  #pre-blog .wrapper-bottom .card {
+    height: 465px;
+  }
+  #pre-blog {
+    padding: 45px 70px 90px 70px;
+  }
+  #ads .wrapper .card .bottom-right {
+    position: absolute;
+    bottom: 90px;
+    right: 90px;
+  }
+  #ads .wrapper .card .top-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(12%, -50%);
+    font-weight: 700;
+  }
+  #ads {
+    padding: 45px 70px;
+  }
+  #azana-group .wrapper-vision .left-side img {
+    width: 50%;
+  }
+  #azana-group .wrapper-vision .right-side {
+    width: 50%;
+    padding: 100px 100px 100px 100px;
+    background-image: linear-gradient(to right, #ef825a, #bb2b2e);
+  }
+  #brand .slick-slider img {
+    width: 100%;
+    height: 120px;
+  }
+  #ads .wrapper .card {
+    height: 575px;
+  }
+  #brand .carousel-item {
+    height: 817px;
+  }
+  #explore {
+    padding: 20px 70px 0px 70px;
+  }
+  #explore .wrapper .card {
+    height: 395px;
+  }
+  #about .btn-box {
+    margin-top: 65px;
+  }
+  #about .wrapper .left-side .caption-about {
+    font-size: 16px;
+  }
+  #about .wrapper .left-side {
+    width: 40%;
+  }
+  #about .wrapper .divider {
+    width: 5%;
+  }
+  #about .wrapper .right-side {
+    width: 60%;
+  }
+  #about .wrapper {
+    display: flex;
+    padding: 0px 70px;
+  }
+  #about {
+    padding: 190px 0px 50px 0px;
+  }
+  #visi-misi {
+    padding: 50px 0px;
+  }
+  #group {
+    padding: 190px 0px 50px 0px;
+  }
+  #visi-misi .wrapper-ambition .right-side {
+    padding: 200px 125px 200px 140px;
+  }
+  #visi-misi .wrapper-mission .left-side {
+    padding: 120px 105px 120px 75px;
+  }
+
+  #visi-misi .wrapper-vision .right-side {
+    padding: 120px 100px 120px 135px;
+  }
+}
+@media (max-width: 1366px) {
+  #ads .wrapper .card .bottom-right {
+    position: absolute;
+    bottom: 112px;
+    right: 65px;
+  }
+  #ads .wrapper .card .top-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(8%, -50%);
+    font-weight: 700;
+  }
+  #ads {
+    padding: 45px 70px;
+  }
+  #azana-desc .box-desc .desc .right-side {
+    width: 73%;
+  }
+  #azana-desc .box-desc .desc .left-side {
+    width: 25%;
+    padding: 20px 0px;
+  }
+  #explore {
+    padding: 70px 70px 0px 70px;
+  }
+  #brand .left-center {
+    top: 52%;
+  }
+  #about {
+    padding: 140px 0px 70px 0px;
+  }
+  #brand .slick-slider img {
+    width: 100%;
+    height: 110px;
+  }
+  #brand .carousel-item {
+    height: 705px;
+  }
+  .banner-home .carousel-item {
+    height: 650px;
+  }
+  .banner-home .carousel-item img {
+    height: 650px;
+  }
+  .banner-group .carousel-item {
+    height: 650px;
+  }
+  .banner-group .carousel-item img {
+    height: 650px;
+  }
+  #group {
+    padding: 140px 0px 70px 0px;
+  }
+
+  #visi-misi .wrapper-mission .left-side {
+    padding: 120px 100px 120px 100px;
+  }
+
+  #visi-misi .wrapper-vision .right-side {
+    padding: 120px 100px 120px 100px;
+  }
+  #visi-misi .wrapper-ambition .right-side {
+    padding: 200px 100px 200px 100px;
+  }
+  #banner .wrapper {
+    padding-top: 100px;
+  }
+  #about {
+    padding: 120px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 1280px) {
+  #pre-blog .wrapper-bottom .card h3.top-left {
+    font-size: 28px;
+  }
+  #ads .wrapper .card .bottom-right {
+    position: absolute;
+    bottom: 120px;
+    right: 75px;
+  }
+  #ads .wrapper .card .top-right {
+    transform: translate(0%, -50%);
+  }
+  #about .btn-box {
+    margin-top: 65px;
+  }
+  #about .wrapper .left-side .caption-about {
+    font-size: 16px;
+  }
+  #visi-misi {
+    padding: 50px 0px;
+  }
+  #group {
+    padding: 120px 0px 50px 0px;
+  }
+  #banner .carousel-item {
+    height: 600px;
+  }
+  #banner .carousel-item img {
+    height: 600px;
+  }
+  #visi-misi .wrapper-ambition .right-side {
+    padding: 120px 80px 120px 100px;
+  }
+  #visi-misi .wrapper-mission .left-side {
+    padding: 120px 70px 120px 70px;
+  }
+  #visi-misi .wrapper-vision .right-side {
+    padding: 120px 80px 120px 100px;
+  }
+  #about {
+    padding: 160px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #pre-blog .wrapper-bottom .card h3.top-left {
+    font-size: 24px;
+  }
+  #pre-blog {
+    padding: 50px 0px 90px 0px;
+  }
+  #ads .wrapper .card .bottom-right {
+    right: 60px;
+  }
+  #ads .wrapper .card .top-right {
+    transform: translate(25%, -50%);
+  }
+  #ads .wrapper .card .top-right h2 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  #ads {
+    padding: 0px 0px;
+  }
+  #brand .carousel-item .carousel-caption h3 {
+    font-size: 24px;
+  }
+  #explore {
+    padding: 70px 0px 0px 0px;
+  }
+  #azana-desc .box-desc .desc .left-side {
+    width: 25%;
+    padding: 18px 0px;
+  }
+  #azana-desc .box-desc {
+    padding: 60px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #707070;
+    border-radius: 10px;
+    margin: 70px 60px 10px 60px;
+  }
+  .carousel-indicators img {
+    width: 150px;
+    padding: 0px 20px;
+  }
+  #brand .slick-slider img {
+    width: 100%;
+    height: 85px;
+  }
+  #brand .carousel-item {
+    height: 682px;
+  }
+  #brand .slick-slider img {
+    width: 100%;
+    height: 85px;
+  }
+  #brand .box-title {
+    transform: translate(-50%, 10%);
+  }
+  #about {
+    padding: 70px 0px 0px 0px;
+  }
+  #about .wrapper .left-side {
+    width: 48%;
+  }
+  #about .wrapper .divider {
+    width: 4%;
+  }
+  #about .wrapper .right-side {
+    width: 48%;
+  }
+  #about .wrapper {
+    display: flex;
+    padding: 0px 0px;
+  }
+  #group .wrapper {
+    display: flex;
+    padding: 0px 50px;
+  }
+  #group {
+    padding: 70px 0px 50px 0px;
+  }
+  #visi-misi .wrapper-ambition .right-side {
+    padding: 130px 45px 130px 60px;
+  }
+  #visi-misi .wrapper-mission .left-side {
+    padding: 100px 60px 100px 45px;
+  }
+  #visi-misi .wrapper-vision .right-side {
+    padding: 100px 55px 100px 60px;
+  }
+  #banner .carousel-item {
+    height: 550px;
+  }
+  #banner .carousel-item img {
+    height: 550px;
+  }
+  #about .wrapper .left-side h2 {
+    font-size: 28px;
+  }
+  #about .wrapper .left-side .caption-about {
+    font-size: 14px;
+  }
+  #about .btn-box .btn-a i {
+    font-size: 25px;
+  }
+  #explore h2 {
+    font-size: 28px;
+  }
+  #explore .caption {
+    font-size: 14px;
+  }
+  #explore .btn-box .btn-a i {
+    font-size: 25px;
+  }
+  #explore .wrapper .card .card-footer {
+    padding: 10px 20px;
+  }
+  #explore .wrapper .card {
+    height: 310px;
+  }
+  #explore .wrapper .card .room-count,
+  .hotel-count {
+    font-size: 14px;
+  }
+  #ads .wrapper .card .top-right {
+    left: 40%;
+  }
+  #ads .wrapper .card .bottom-right {
+    bottom: 100px;
+  }
+}
+/* End Media Queries */

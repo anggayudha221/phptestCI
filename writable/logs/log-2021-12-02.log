@@ -1,0 +1,138 @@
+CRITICAL - 2021-12-02 01:00:14 --> Undefined variable: nonceValue
+#0 C:\newproject\non-project\ci4 testing\app\Views\form_insert.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\View\View.php(214): include('C:\\newproject\\n...')
+#2 C:\newproject\non-project\ci4 testing\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\newproject\non-project\ci4 testing\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(18): view()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#10 {main}
+CRITICAL - 2021-12-02 02:04:29 --> Undefined variable: response
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->encrypt()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-02 02:31:39 --> Cannot redeclare App\Controllers\Home::encrypt()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-02 02:59:31 --> Argument 1 passed to App\Libraries\CryptoJsAes::decrypt() must be of the type string, null given, called in C:\newproject\non-project\ci4 testing\app\Controllers\Home.php on line 44
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Home.php(44): App\Libraries\CryptoJsAes::decrypt()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Home->send()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-02 03:14:01 --> Class 'App\Controllers\CI_Controller' not found
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(519): include_once()
+#1 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-02 03:14:10 --> Class 'App\Controllers\CI_Controller' not found
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(519): include_once()
+#1 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-02 03:14:52 --> Undefined property: App\Controllers\Auth::$form_validation
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-02 03:40:00 --> Undefined property: App\Controllers\Auth::$input
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(11): App\Controllers\Auth->check_2fa()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-02 03:40:41 --> Undefined property: App\Controllers\Auth::$input
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(12): App\Controllers\Auth->check_2fa()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-02 03:40:42 --> Undefined property: App\Controllers\Auth::$input
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(12): App\Controllers\Auth->check_2fa()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2021-12-02 03:41:07 --> Undefined property: App\Controllers\Auth::$google_auth
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-02 03:41:27 --> Undefined property: App\Controllers\Auth::$google_auth
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-02 03:41:35 --> Undefined property: App\Controllers\Auth::$load
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-02 03:41:42 --> Invalid file: 2fa_method.php
+#0 C:\newproject\non-project\ci4 testing\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\newproject\non-project\ci4 testing\system\Common.php(1097): CodeIgniter\View\View->render()
+#2 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(22): view()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->index()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#8 {main}
+CRITICAL - 2021-12-02 03:48:52 --> syntax error, unexpected ')'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2021-12-02 03:56:14 --> Undefined variable: nama
+#0 C:\newproject\non-project\ci4 testing\app\Views\masuk.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\View\View.php(214): include('C:\\newproject\\n...')
+#2 C:\newproject\non-project\ci4 testing\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\newproject\non-project\ci4 testing\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\newproject\non-project\ci4 testing\app\Controllers\auth.php(45): view()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Auth->check_2fa()
+#6 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#10 {main}

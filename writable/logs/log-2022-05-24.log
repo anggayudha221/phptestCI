@@ -1,0 +1,441 @@
+CRITICAL - 2022-05-24 04:53:38 --> file_get_contents(http://dummyapi.io/data/v1/user?limit=10): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:54:51 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-24 04:55:12 --> file_get_contents(http://dummyapi.io/data/v1/user?limit=10): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:55:24 --> file_get_contents(http://dummyapi.io/data/v1/user?limit=10): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:55:38 --> file_get_contents() expects parameter 2 to be bool, resource given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:55:40 --> file_get_contents() expects parameter 2 to be bool, resource given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:55:50 --> file_get_contents() expects parameter 2 to be bool, resource given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:55:51 --> file_get_contents() expects parameter 2 to be bool, resource given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:55:52 --> file_get_contents() expects parameter 2 to be bool, resource given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:55:52 --> file_get_contents() expects parameter 2 to be bool, resource given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:56:04 --> file_get_contents(http://dummyapi.io/data/v1/user?limit=10): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:58:05 --> file_get_contents(http://dummyapi.io/data/v1/user?limit=10): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:58:07 --> file_get_contents(http://dummyapi.io/data/v1/user?limit=10): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 04:58:31 --> file_get_contents(http://dummyapi.io/data/v1/user?limit=10): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(46): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 05:01:03 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:01:22 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:01:36 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:02:03 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:11:49 --> Undefined variable: data
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:29:50 --> syntax error, unexpected '"body"' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:30:09 --> syntax error, unexpected '"body"' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:30:11 --> syntax error, unexpected '"body"' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:30:31 --> file_get_contents(https://dummyapi.io/data/v1/user?limit=10): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(63): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 05:30:51 --> file_get_contents(https://dummyapi.io/data/v1/user/create): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(63): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 05:32:28 --> Undefined variable: json_encode
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 05:35:12 --> file_get_contents(https://dummyapi.io/data/v1/user/create): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(63): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 05:35:15 --> file_get_contents(https://dummyapi.io/data/v1/user/create): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(63): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 21:10:56 --> file_get_contents(https://dummyapi.io/data/v1/user/create): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(63): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 21:11:34 --> syntax error, unexpected ']'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 21:11:52 --> file_get_contents(https://dummyapi.io/data/v1/user/create): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(63): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 22:30:07 --> syntax error, unexpected '"app-id:628c468d9e29dfc7c7043e' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 22:30:15 --> file_get_contents(https://dummyapi.io/data/v1/user/create): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(65): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 22:30:39 --> file_get_contents(https://dummyapi.io/data/v1/user/create): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(65): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 22:41:02 --> file_get_contents(https://dummyapi.io/data/v1/user/create): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(65): file_get_contents()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#7 {main}
+CRITICAL - 2022-05-24 23:09:48 --> Undefined variable: con_delete
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:10:02 --> Undefined variable: con_delete
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:11:29 --> Illegal string offset 'id'
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:11:42 --> Illegal string offset 'id'
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:12:13 --> Invalid argument supplied for foreach()
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:12:32 --> Invalid argument supplied for foreach()
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:13:03 --> Invalid argument supplied for foreach()
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:22:38 --> Invalid argument supplied for foreach()
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:32:19 --> Undefined index: id
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:32:38 --> Illegal string offset 'id'
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:32:55 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:33:33 --> Array to string conversion
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:33:40 --> Illegal string offset 'data'
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:34:39 --> Undefined offset: 1
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:35:42 --> Undefined offset: 1
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:40:07 --> syntax error, unexpected '{'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-05-24 23:47:40 --> Trying to access array offset on value of type int
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}

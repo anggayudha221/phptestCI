@@ -1,0 +1,86 @@
+CRITICAL - 2022-01-24 21:59:55 --> Invalid argument supplied for foreach()
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:00:34 --> syntax error, unexpected '`'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:00:36 --> syntax error, unexpected '`'
+#0 C:\newproject\non-project\ci4 testing\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:02:14 --> Invalid argument supplied for foreach()
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:06:48 --> Undefined variable: data
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:11:01 --> Invalid argument supplied for foreach()
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:13:12 --> Undefined variable: value
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:13:19 --> Undefined variable: value
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:13:20 --> Undefined variable: value
+#0 C:\newproject\non-project\ci4 testing\app\Controllers\Json.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#6 {main}
+CRITICAL - 2022-01-24 22:16:52 --> Call to undefined function App\Controllers\wp_remote_retrieve_body()
+#0 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#5 {main}
+CRITICAL - 2022-01-24 22:40:27 --> Call to undefined function App\Controllers\wp_remote_retrieve_body()
+#0 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(824): App\Controllers\Json->index()
+#1 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#5 {main}

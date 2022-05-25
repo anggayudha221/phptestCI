@@ -1,0 +1,14 @@
+ERROR - 2021-11-28 23:48:22 --> Table 'users' already exists
+ERROR - 2021-11-28 23:48:42 --> Referencing column 'user_id' and referenced column 'id' in foreign key constraint 'users_groups_user_id_foreign' are incompatible.
+CRITICAL - 2021-11-28 23:59:55 --> Class 'App\Controllers\CI_Controller' not found
+#0 C:\newproject\non-project\ci4 testing\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\newproject\non-project\ci4 testing\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#2 C:\newproject\non-project\ci4 testing\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 [internal function]: spl_autoload_call()
+#5 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(789): class_exists()
+#6 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\newproject\non-project\ci4 testing\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\newproject\non-project\ci4 testing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\newproject\non-project\ci4 testing\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\n...')
+#10 {main}
